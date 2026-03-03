@@ -18,14 +18,14 @@ PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # 服务——FileBrowser 用户名admin 密码admin
-PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
-PACKAGES="$PACKAGES luci-theme-argon"
+#PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
+#PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES xray-core hysteria luci-i18n-passwall-zh-cn"
-PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+#PACKAGES="$PACKAGES xray-core hysteria luci-i18n-passwall-zh-cn"
+#PACKAGES="$PACKAGES luci-app-openclash"
+#PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 文件管理器
@@ -36,8 +36,8 @@ if [ "$INCLUDE_DOCKER" = "yes" ]; then
     echo "✅ 已选择docker : luci-i18n-dockerman-zh-cn"
 fi
 # 斐讯N1 无线
-PACKAGES="$PACKAGES kmod-brcmfmac wpad-basic-mbedtls iw iwinfo"
-PACKAGES="$PACKAGES perlbase-base perlbase-file perlbase-time perlbase-utf8 perlbase-xsloader"
+#PACKAGES="$PACKAGES kmod-brcmfmac wpad-basic-mbedtls iw iwinfo"
+#PACKAGES="$PACKAGES perlbase-base perlbase-file perlbase-time perlbase-utf8 perlbase-xsloader"
 # 晶晨宝盒（追加第三方必备软件 用于写入emmc 请不要注释）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-amlogic luci-i18n-amlogic-zh-cn"
 
