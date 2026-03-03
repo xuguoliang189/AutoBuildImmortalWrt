@@ -27,7 +27,7 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 #PACKAGES="$PACKAGES luci-app-openclash"
 #PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 判断是否需要编译 Docker 插件
